@@ -1,4 +1,3 @@
-
 from bluebuttonpy import core, documents
 from bluebuttonpy.core import wrappers
 from bluebuttonpy.core.core import strip_whitespace

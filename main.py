@@ -263,7 +263,7 @@ def social_code_extraction(input_text):
       Z57.1 - Occupational exposure to radiation 
       Z57.2 - Occupational exposure to dust 
       Category 3.1: Z57.3 - Occupational exposure to other air contaminants 
-        Subcategories:
+      Subcategories:
         Z57.31 - Occupational exposure to environmental tobacco smoke 
         Z57.39 - Occupational exposure to other air contaminants 
       Z57.4 - Occupational exposure to toxic agents in agriculture 
@@ -283,36 +283,28 @@ def social_code_extraction(input_text):
 
     Category 5: Problems related to housing and economic circumstances
     Subcategories:
-      Category 5.1: Z59.0 - Homelessness 
-      Subcategories:
-        Z59.00 - Homelessness unspecified 
-        Z59.01 - Sheltered homelessness 
-        Z59.02 - Unsheltered homelessness 
-      Category 5.2: Z59.1 - Inadequate housing 
-      Subcategories:
-        Z59.10 - Inadequate housing, unspecified 
-        Z59.11 - Inadequate housing environmental temperature 
-        Z59.12 - Inadequate housing utilities 
-        Z59.19 - Other inadequate housing 
+      Z59.00 - Homelessness unspecified 
+      Z59.01 - Sheltered homelessness 
+      Z59.02 - Unsheltered homelessness 
+      Z59.10 - Inadequate housing, unspecified 
+      Z59.11 - Inadequate housing environmental temperature 
+      Z59.12 - Inadequate housing utilities 
+      Z59.19 - Other inadequate housing 
       Z59.2 - Discord with neighbors, lodgers and landlord 
       Z59.3 - Problems related to living in residential institution 
-      Category 5.3: Z59.4 - Lack of adequate food 
-      Subcategories:
-        Z59.41 - Food insecurity 
-        Z59.48 - Other specified lack of adequate food 
+      Z59.41 - Food insecurity 
+      Z59.48 - Other specified lack of adequate food 
       Z59.5 - Extreme poverty 
       Z59.6 - Low income 
       Z59.7 - Insufficient social insurance and welfare support 
       Z59.8 - Other problems related to housing and economic circumstances 
-        Category 5.4: Z59.81 - Housing instability, housed 
-        Subcategories:
-          Z59.811 - Housing instability, housed, with risk of homelessness 
-          Z59.812 - Housing instability, housed, homelessness in past 12 months 
-          Z59.819 - Housing instability, housed unspecified 
-        Z59.82 - Transportation insecurity 
-        Z59.86 - Financial insecurity 
-        Z59.87 - Material hardship due to limited financial resources, not elsewhere classified 
-        Z59.89 - Other problems related to housing and economic circumstances 
+      Z59.811 - Housing instability, housed, with risk of homelessness 
+      Z59.812 - Housing instability, housed, homelessness in past 12 months 
+      Z59.819 - Housing instability, housed unspecified 
+      Z59.82 - Transportation insecurity 
+      Z59.86 - Financial insecurity 
+      Z59.87 - Material hardship due to limited financial resources, not elsewhere classified 
+      Z59.89 - Other problems related to housing and economic circumstances 
       Z59.9 - Problem related to housing and economic circumstances, unspecified 
 
     Category 6: Problems related to social environment
@@ -328,58 +320,50 @@ def social_code_extraction(input_text):
     Category 7: Problems related to upbringing
       Z62.0 - Inadequate Parental Supervision and Control 
       Z62.1 - Parental Overprotection 
-      Category 7.1: Z62.2 - Upbringing Away from Parents 
-      Subcategories:
-        Z62.21 - Child in Welfare Custody 
-        Z62.22 - Institutional Upbringing 
-        Z62.23 - Child in Custody of Non-Parental Relative 
-        Z62.24 - Child in Custody of Non-Relative Guardian 
-        Z62.29 - Other Upbringing Away from Parents 
+      Z62.21 - Child in Welfare Custody 
+      Z62.22 - Institutional Upbringing 
+      Z62.23 - Child in Custody of Non-Parental Relative 
+      Z62.24 - Child in Custody of Non-Relative Guardian 
+      Z62.29 - Other Upbringing Away from Parents 
       Z62.3 - Hostility Towards and Scapegoating of Child 
       Z62.6 - Inappropriate (Excessive) Parental Pressure 
-      Category 7.2: Z62.8 - Other Specified Problems Related to Upbringing 
-        Category 7.21: Z62.81 - Personal History of Abuse in Childhood 
-          Z62.810 - Personal History of Physical and Sexual Abuse in Childhood 
-          Z62.811 - Personal History of Psychological Abuse in Childhood 
-          Z62.812 - Personal History of Neglect in Childhood 
-          Z62.813 - Personal History of Forced Labor or Sexual Exploitation in Childhood 
-          Z62.814 - Personal History of Child Financial Abuse 
-          Z62.815 - Personal History of Intimate Partner Abuse in Childhood 
-          Z62.819 - Personal History of Unspecified Abuse in Childhood 
-      Category 7.3: Z62.82 - Parent-Child Conflict 
-        Z62.820 - Parent-Biological Child Conflict 
-        Z62.821 - Parent-Adopted Child Conflict 
-        Z62.822 - Parent-Foster Child Conflict 
-        Z62.823 - Parent-Step Child Conflict 
-      Category 7.4: Z62.83 - Non-Parental Relative or Guardian-Child Conflict 
-        Z62.831 - Non-Parental Relative-Child Conflict 
-        Z62.832 - Non-Relative Guardian-Child Conflict  
-        Z62.833 - Group Home Staff-Child Conflict 
-      Category 7.5: Z62.89 - Other Specified Problems Related to Upbringing 
-        Z62.890 - Parent-Child Estrangement NEC 
-        Z62.891 - Sibling Rivalry 
-        Z62.892 - Runaway [From Current Living Environment] 
-        Z62.898 - Other Specified Problems Related to Upbringing 
+      Z62.810 - Personal History of Physical and Sexual Abuse in Childhood 
+      Z62.811 - Personal History of Psychological Abuse in Childhood 
+      Z62.812 - Personal History of Neglect in Childhood 
+      Z62.813 - Personal History of Forced Labor or Sexual Exploitation in Childhood 
+      Z62.814 - Personal History of Child Financial Abuse 
+      Z62.815 - Personal History of Intimate Partner Abuse in Childhood 
+      Z62.819 - Personal History of Unspecified Abuse in Childhood 
+
+      Z62.820 - Parent-Biological Child Conflict 
+      Z62.821 - Parent-Adopted Child Conflict 
+      Z62.822 - Parent-Foster Child Conflict 
+      Z62.823 - Parent-Step Child Conflict 
+    
+      Z62.831 - Non-Parental Relative-Child Conflict 
+      Z62.832 - Non-Relative Guardian-Child Conflict  
+      Z62.833 - Group Home Staff-Child Conflict 
+    
+      Z62.890 - Parent-Child Estrangement NEC 
+      Z62.891 - Sibling Rivalry 
+      Z62.892 - Runaway [From Current Living Environment] 
+      Z62.898 - Other Specified Problems Related to Upbringing 
       Z62.9 - Problem Related to Upbringing, Unspecified 
 
     Category 8: Other problems related to primary support group, including family circumstances
     Subcategories:
       Z63.0 - Problems in Relationship with Spouse or Partner 
       Z63.1 - Problems in Relationship with In-Laws 
-      Category 8.1: Z63.3 - Absence of Family Member 
-      Subcategories:
-         Z63.31 - Absence of Family Member due to Military Deployment 
-        Z63.32 - Other Absence of Family Member 
-    Z63.4 - Disappearance and Death of Family Member 
-    Z63.5 - Disruption of Family by Separation and Divorce 
-    Z63.6 - Dependent Relative Needing Care at Home  
-    Category 8.2: Z63.7 - Other Stressful Life Events Affecting Family and Household 
-    Subcategories:
+      Z63.31 - Absence of Family Member due to Military Deployment 
+      Z63.32 - Other Absence of Family Member 
+      Z63.4 - Disappearance and Death of Family Member 
+      Z63.5 - Disruption of Family by Separation and Divorce 
+      Z63.6 - Dependent Relative Needing Care at Home  
       Z63.71 - Stress on Family Due to Return of Family Member from Military Deployment  
       Z63.72 - Alcoholism and Drug Addiction in Family 
       Z63.79 - Other Stressful Life Events Affecting Family and Household 
-    Z63.8 - Other Specified Problems Related to Primary Support Group  
-    Z63.9 - Problem Related to Primary Support Group, Unspecified 
+      Z63.8 - Other Specified Problems Related to Primary Support Group  
+      Z63.9 - Problem Related to Primary Support Group, Unspecified 
 
     Category 9: Problems related to certain psychosocial circumstances
     Subcategories:
@@ -398,6 +382,23 @@ def social_code_extraction(input_text):
       Z65.8 - Other Specified Problems Related to Psychosocial Circumstances 
       Z65.9 - Problem Related to Unspecified Psychosocial Circumstances 
     """
+#Z59.00 - Homelessness
+# Z59.10 - Inadequate housing
+# Category 5.1: Z59.4 - Lack of adequate food 
+#     Subcategories:
+# Category 5.2: Z59.81 - Housing instability, housed 
+#     Subcategories:
+# Category 7.1: Z62.2 - Upbringing Away from Parents 
+#       Subcategories:
+#  Category 7.2: Z62.8 - Other Specified Problems Related to Upbringing 
+#       Category 7.21: Z62.81 - Personal History of Abuse in Childhood 
+#  Category 8.1: Z63.3 - Absence of Family Member 
+#     Subcategories:
+#  Category 8.2: Z63.7 - Other Stressful Life Events Affecting Family and Household 
+#     Subcategories:
+# Category 7.5: Z62.89 - Other Specified Problems Related to Upbringing 
+# Category 7.4: Z62.83 - Non-Parental Relative or Guardian-Child Conflict
+      # Category 7.3: Z62.82 - Parent-Child Conflict  
 
     prompt = f"""
       Following is a list of possible social determinants of health factors and their corresponding codes in nested categories and subcategories:
@@ -410,9 +411,8 @@ def social_code_extraction(input_text):
       Instructions:
       1.Carefully read the input text and identify if any of the mentioned factors are present, even if not phrased exactly as specified.
       2.For any identified piece of text: check through all the given nested subcategories to find the most specific code. 
-      3.Only Return the identified piece of text as it is and its exact corresponding factor and associated code in the following format:
+      3.Only Return the identified piece of text as it is and its associated code in the following format:
           identified text : text1, text2..
-          factor : factor1, factor2..
           code: code1, code2..
       5.Only return the output of Point 3, nothing else, no extra text, no python code,no comments or explanations.
       6.If no factor is found, just say-"No SDOH factor found".
@@ -453,7 +453,7 @@ def social_code_extraction(input_text):
 #####Testing- Code to run for single file
 #process_ccda('/content/Patient-102.xml')
 #('/content/xml_repo/EMERGE/Patient-263.xml') 
-output1 = process_ccda('/content/sample_ccda.xml') #('/content/Patient-1_housing.xml')
+output1 = process_ccda('/content/sample_ccda2.xml') #('/content/Patient-1_housing.xml')
 # print(f"Extracted Text: {output1}")
 output2 = social_code_extraction(output1)
 print(f"Extracted codes: {output2}")

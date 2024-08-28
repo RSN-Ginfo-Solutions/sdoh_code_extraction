@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "sdoh-code-extraction"
+version = "0.1.0"
+description = ""
+authors = ["RSN Ginfo Solutions"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+bluebuttonpy = "^0.1.0"
+pandas = "^2.2.2"
+groq = "^0.10.0"
+litellm = "^1.44.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

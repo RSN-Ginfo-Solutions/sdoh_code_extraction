@@ -453,7 +453,7 @@ def social_code_extraction(input_text):
 #####Testing- Code to run for single file
 #process_ccda('/content/Patient-102.xml')
 #('/content/xml_repo/EMERGE/Patient-263.xml') 
-output1 = process_ccda('/content/sample_ccda2.xml') #('/content/Patient-1_housing.xml')
+output1 = process_ccda('/home/ubuntu/sdoh_coding/sdoh_code_extraction/sample_ccda.xml') #('/content/Patient-1_housing.xml')
 # print(f"Extracted Text: {output1}")
 output2 = social_code_extraction(output1)
 print(f"Extracted codes: {output2}")

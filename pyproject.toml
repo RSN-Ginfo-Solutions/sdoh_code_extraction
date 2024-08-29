@@ -7,10 +7,10 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-bluebuttonpy = "^0.1.0"
 pandas = "^2.2.2"
 groq = "^0.10.0"
 litellm = "^1.44.7"
+bluebuttonpy = "^0.2.0"
 
 [build-system]
 requires = ["poetry-core"]

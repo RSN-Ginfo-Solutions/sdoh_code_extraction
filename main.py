@@ -412,11 +412,13 @@ def social_code_extraction(input_text):
       1.Carefully read the input text and identify if any of the mentioned factors are present, even if not phrased exactly as specified.
       2.For any identified piece of text: check through all the given nested subcategories to find the most specific code. 
       3.Only Return the identified piece of text as it is and its associated code in the following format:
-          identified text : text1, text2..
-          code: code1, code2..
-      5.Only return the output of Point 3, nothing else, no extra text, no python code,no comments or explanations.
-      6.If no factor is found, just say-"No SDOH factor found".
-      7.Do not hallucinate, display all the codes that you find.
+          identified text : code
+          
+      4.Only return the output of Point 3, nothing else, no extra text, no python code, no comments or explanations.
+      5.Only identify relevant text that matches with the given codes, do not identify text which is unnecessary and not a problem.
+      6.Do not identify -"Never smoker : Never smoker (Never Smoked)" as SDOH factor.
+      7.If no factor is found, just say-"No SDOH factor found".
+      8.Do not hallucinate, display all the codes that you find.
       """
 # 3.If you do not find any specific subcategory for the identified text, then only mention its corresponding category.
    
@@ -453,10 +455,10 @@ def social_code_extraction(input_text):
 #####Testing- Code to run for single file
 #process_ccda('/content/Patient-102.xml')
 #('/content/xml_repo/EMERGE/Patient-263.xml') 
-output1 = process_ccda('/home/ubuntu/sdoh_coding/sdoh_code_extraction/sample_ccda.xml') #('/content/Patient-1_housing.xml')
-# print(f"Extracted Text: {output1}")
+output1 = process_ccda('/home/ubuntu/sdoh_coding/sdoh_test/Patient-111.xml') 
+print(f"Extracted Text: {output1}")
 output2 = social_code_extraction(output1)
-print(f"Extracted codes: {output2}")
+print(output2) #(f"Extracted codes: {output2}")
 
 ######Code to run for ALL files with continuous updates
 
